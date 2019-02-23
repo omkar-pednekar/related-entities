@@ -1,0 +1,4 @@
+services:
+  related_entities.related_entities_finder:
+    class: Drupal\related_entities\RelatedEntitiesFinder
+    arguments: ['@current_route_match']

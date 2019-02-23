@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - related_entities
+  theme:
+    - bartik
+id: relatedentities
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: related_entities
+settings:
+  id: related_entities
+  label: 'Related Entities'
+  provider: related_entities
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

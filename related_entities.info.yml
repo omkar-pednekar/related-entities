@@ -1,0 +1,5 @@
+name: 'Related Entities'
+type: module
+description: 'Module to display related entities based on entity view into block.'
+core: 8.x
+package: 'Custom'

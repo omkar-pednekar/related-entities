@@ -1,0 +1,14 @@
+{
+  "name": "drupal/related_entities",
+  "type": "drupal-module",
+  "description": "Module to display related entities based on entity view into block.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/related_entities",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/related_entities",
+    "source": "http://cgit.drupalcode.org/related_entities"
+  },
+  "require": { }
+}
